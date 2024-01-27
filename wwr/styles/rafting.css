@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com');
+
+* {
+  width: 80%;
+}
+
+:root {
+  --primary-color: #FFC40C;
+  --secondary-color: #FF312E;
+  --accent1-color: #FF8C00;
+  --accent2-color: #468FEA;
+
+  --heading-font: 'Open Sans', serif;
+  --paragraph-font: 'Montserrat', serif;
+
+  --nav-background-color: var(--primary-color);
+  --nav-link-color: var(--secondary-color);
+  --nav-hover-link-color: var(--accent1-color);
+  --nav-hover-background-color: var(--accent2-color);
+  
+}
+
+h2 {
+  color:#333;
+  text-align: center;
+}
+
+p {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero {
+  position: relative;
+
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+article {
+  position: absolute;
+  background-color: var(--primary-color);
+}
+
+article h1 {
+  position: absolute;
+}
+
+article img {
+  float: right;
+}
