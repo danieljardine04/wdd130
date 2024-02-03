@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com');
 
-* {
-  width: 80%;
-}
+ * {
+  background-color: #FFC40C;
+
+} 
 
 :root {
   --primary-color: #FFC40C;
@@ -20,20 +21,29 @@
   
 }
 
-header, footer {
-  max-width: 840px;
-  margin: 0 auto;
+header {
+  display: grid;
+  background-color: steelblue;
+  grid-template-columns: 1fr 1fr;
+  
+}
+
+header img { 
+  width: 100px;
+  height: 100%;
 }
 
 nav {
   background-color: steelblue;
+  color: var(--secondary-color);
   padding: 1rem;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 100%;
  
 }
+
 
 h2 {
   color:#333;
@@ -46,10 +56,19 @@ p {
 
 a {
   text-decoration: none;
+  color: white;
+  padding: 1rem;
+  
+}
+
+a:hover {
+  color: var(--accent1-color);
+
 }
 
 .hero {
   position: relative;
+  display: inline-block;
 
 }
 
@@ -59,16 +78,63 @@ a {
   height: auto;
 }
 
+
+#section1 {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+
+
 article {
   position: absolute;
-  background-color: var(--primary-color);
+  top: 52%;
+  left: 30%;
+  right: 10%;
+  font-size: 20px;
+  text-align: center;
 }
 
 article h1 {
-  position: absolute;
+  position: block;
+  color: var(--secondary-color);
+  text-align: center;
 }
 
 article img {
+  position: block;
+  max-width: 200px;
+  max-height: 100px;
   float: right;
 }
+
+.adventure {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  flex-direction: column;
+}
+
+.adventure img {
+  width: 300px;
+  height: 200px;
+  margin: 1rem;
+}
+
+footer {
+  background-color: steelblue;
+  margin-top: 10px;
+  border-top: 1px solid var(--accent2-color);
+  display: flex;
+}
+
+footer img {
+  max-width: 100px;
+  max-height: 100px;
+  justify-content: flex-end;
+}
+
+
 
