@@ -85,10 +85,6 @@ a:hover {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-
-
-
-
 article {
   position: absolute;
   top: 52%;
@@ -110,6 +106,62 @@ article img {
   max-height: 100px;
   float: right;
 }
+
+.Employee {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-around;
+}
+
+.form {
+  width: 650px;
+  margin: 0 auto;
+  padding: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  
+}
+.form-style {
+  background-color: var(--accent2-color) !important;
+  color: var(--accent1-color) !important;
+}
+form p {
+  background-color: var(--accent2-color) !important;
+  color: var(--accent1-color) !important;
+  font-size: 1.1rem;
+}
+
+form label {
+  background-color: var(--accent2-color) !important;
+  color: var(--accent1-color) !important;
+}
+
+form input {
+  background-color: var(--accent2-color) !important;
+  color: var(--accent1-color) !important;
+}
+
+form h1 {
+  background-color: var(--accent2-color) !important;
+  color: var(--accent1-color) !important;
+}
+
+
+button {
+  background-color: var(--accent1-color);
+  color: var(--accent2-color);
+  margin: 1rem;
+  border: none;
+  padding: 10px;
+  
+  font-size: 1.2rem;
+}
+
+button:hover{
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
 
 .adventure {
   display: grid;
