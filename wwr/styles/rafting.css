@@ -136,10 +136,10 @@ form label {
   color: var(--accent1-color) !important;
 }
 
-form input {
+/* form input {
   background-color: var(--accent2-color) !important;
   color: var(--accent1-color) !important;
-}
+} */
 
 form h1 {
   background-color: var(--accent2-color) !important;
