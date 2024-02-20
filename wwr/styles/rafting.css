@@ -97,13 +97,13 @@ article {
 }
 
 article h1 {
-  position: block;
+  
   color: var(--secondary-color);
   text-align: center;
 }
 
 article img {
-  position: block;
+  
   max-width: 200px;
   max-height: 100px;
   float: right;
