@@ -46,32 +46,32 @@
       </div>
       <section class="form-style form" id="form">
         <h1>Send us a message</h1>
-        <form id="contact-form">
+        <form>
           <div class="form-style">
-            <label>Username:</label>
-            <input type="text">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
           </div>
           <div class="form-style">
-            <label>Email address:</label>
-            <input type="text">
+            <label for="email">Email address:</label>
+            <input type="text" id="email">
           </div>
           <div class="form-style">
             <p>What is your reason for contacting us?</p>
-            <label>General Information</label>
-            <input type="radio" name="ans" value="General Inquiry">  
+            <label for="info">General Information</label>
+            <input type="radio" name="ans" value="General Inquiry" id="info">  
             <br>
-            <label>Reservation Question</label>
-            <input type="radio" name="ans" value="Reservation Question"> 
+            <label for="question">Reservation Question</label>
+            <input type="radio" name="ans" value="Reservation Question" id="question"> 
             <br>
-            <label>Website Suggestion</label>
-            <input type="radio" name="ans" value="Website Suggestion"> 
+            <label for="suggestion">Website Suggestion</label>
+            <input type="radio" name="ans" value="Website Suggestion" id="suggestion"> 
             <br>
             <textarea></textarea> 
-            <label>Please subscribe me to the monthly newsletter</label>
-            <input type="checkbox">
+            <label for="checkbox">Please subscribe me to the monthly newsletter</label>
+            <input type="checkbox" id="checkbox">
             <br>
           </div>
-          <button type="submit">Submission Button</button>
+          <button type="submit" id="button1">Submission Button</button>
         </form>
       </section>
     </main>
