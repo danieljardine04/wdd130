@@ -115,6 +115,21 @@ article img {
   justify-content: space-around;
 }
 
+.Employee h3 {
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+.Employee img {
+  width: 80%;
+  height: auto;
+  
+}
+
+.Employee p {
+  padding-right: 50px;
+}
+
 .form {
   width: 650px;
   margin: 0 auto;
@@ -138,10 +153,6 @@ form label {
   color: var(--accent1-color) !important;
 }
 
-/* form input {
-  background-color: var(--accent2-color) !important;
-  color: var(--accent1-color) !important;
-} */
 
 form h1 {
   background-color: var(--accent2-color) !important;
@@ -189,6 +200,56 @@ footer img {
   max-height: 100px;
   justify-content: flex-end;
 }
+
+.extra {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  
+}
+
+.extra a {
+  display: flex;
+  align-items: center;
+}
+
+.home_hero {
+  position: relative;
+  display: block;
+  margin-bottom: 100px;
+}
+
+.home_hero img {
+  background-image: url(../images/home_hero.jpeg);
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+.overlay-text {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  right: 35%;
+}
+
+.overlay-text h1 {
+  color: var(--primary-color);
+  font-size: 50px;
+}
+
+.company-info {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+.company-info a {
+  font-size: 25px;
+}
+
 
 
 
